@@ -1,5 +1,6 @@
 ### *Here are a variety of functions written by me and/or others.* ###
 
+<br>
 
 ## ***Sensitivity Analysis for Latent Homophily***
 
