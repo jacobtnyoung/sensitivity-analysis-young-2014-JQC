@@ -1,6 +1,6 @@
 ### Below are several R functions that I (and others) have programmed. I have found these very useful.
 
-## **Sensitivity Analysis for Latent Homophily**
+## ***Sensitivity Analysis for Latent Homophily***
 
 Studies of social influence often estimate the effect of peers by regressing some outcome of interest (e.g. delinquency) on a measure of peer behavior (e.g. average peer delinquency in the network). However, latent homophily, an unmeasured factor which influences friendship selection and some outcome of interest, can create artificial statistical dependence between an outcome of interest for two individuals in the absence of any causal relationship ([Shalizi and Thomas 2011](http://www.ncbi.nlm.nih.gov/pubmed/21052008)). This program examines the sensitivity of estimates from a regression model of some outcome on a directly measured outcome of peers. [VanderWeele and Arah (2011)](http://www.ncbi.nlm.nih.gov/pubmed/21052008) and [VanderWeele (2011)](http://smr.sagepub.com/content/40/2/240.short) have developed a means to examine the sensitivity of an estimate to latent homophily. Basically, the approach examines the hypothetical conditions under which the effect of social influence would be explained by latent homophily.
 
@@ -21,6 +21,10 @@ The syntax below provides the sensitivity analyses conducted by [Young (2014)](h
 
 ---
 
-## **Add Pie**
+## ***Add Pie***
 
-This function was written by Christopher Steven Marcum and David R. Schaefer. The function **add.pie** adds pie charts to network visualizations that have been called using the gplot function in the sna package. A discussion of the function is provided in the article Save Room for Pie: Adding Pie Charts to Network Visualizations in R with statnet and plotrix.
+This function was written by Christopher Steven Marcum and David R. Schaefer. The function **add.pie** adds pie charts to network visualizations that have been called using the [gplot](https://www.rdocumentation.org/packages/sna/versions/2.5/topics/gplot) function in the [sna](https://cran.r-project.org/web/packages/sna/index.html) package. A discussion of the function is provided in the article [Save Room for Pie: Adding Pie Charts to Network Visualizations in R with statnet and plotrix](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwiq39jx9qfhAhXUFjQIHWXQC9MQFjAAegQIARAC&url=https%3A%2F%2Fosf.io%2Fpreprints%2Fsocarxiv%2F3rw8e%2Fdownload&usg=AOvVaw0nHud2aEW6Ew0gtuAxtL1f).
+
+*Syntax*
+
+The [*add.pie*](https://github.com/jacobtnyoung/R-functions/blob/master/marcum_schaefer_add_pie.R) function in .R format
