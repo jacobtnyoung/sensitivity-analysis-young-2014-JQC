@@ -16,20 +16,13 @@ The syntax below provides the sensitivity analyses conducted by [Young (2014)](h
 
 <br>
 
-<br>
-
-<br>
 
 ## ***Add Pie***
 
 This function was written by Christopher Steven Marcum and David R. Schaefer. The function [**add.pie**](marcum_schaefer_add_pie.R) adds pie charts to network visualizations that have been called using the [gplot](https://www.rdocumentation.org/packages/sna/versions/2.5/topics/gplot) function in the [sna](https://cran.r-project.org/web/packages/sna/index.html) package. A discussion of the function is provided in the article [Save Room for Pie: Adding Pie Charts to Network Visualizations in R with statnet and plotrix](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwiq39jx9qfhAhXUFjQIHWXQC9MQFjAAegQIARAC&url=https%3A%2F%2Fosf.io%2Fpreprints%2Fsocarxiv%2F3rw8e%2Fdownload&usg=AOvVaw0nHud2aEW6Ew0gtuAxtL1f).
 
-
 <br>
 
-<br>
-
-<br>
 
 ## ***Roster to Adjacency***
 
@@ -37,16 +30,10 @@ The [**roster.to.adjacency**](roster.to.adjacency.R) function takes network data
 
 <br>
 
-<br>
-
-<br>
 
 ## ***Egocentric Stats***
 
 The [**egocentric.stats**]() function is a set of functions, each of which takes an adjacency matrix and a variable and creates the egocentric means and standard deviation for that variable. The functions require the adjacency matrix ("adj") and a variable ("var"). There are three types of networks to call: send, receive, and send and receive. So, there are six functions (3 for mean, 3 for sd). The end of the function gives an example of how this works.
 
-<br>
-
-<br>
 
 ---
