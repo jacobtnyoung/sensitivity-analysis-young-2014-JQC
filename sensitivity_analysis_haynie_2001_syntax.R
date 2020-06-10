@@ -1,12 +1,5 @@
 
-#############################################################################
-# This program examines the sensitivity of the estimates for a direct measure
-# of peer delinquency examined in: 
-# Delinquent Peers Revisited: Does Network Structure Matter?
-# Dana L. Haynie, American Journal of Sociology 2001 106 :1013
 
-#############################################################################
-##BEGIN PROGRAM##BEGIN PROGRAM##BEGIN PROGRAM##BEGIN PROGRAM##BEGIN PROGRAM##
 
 #Clear workspace.
 rm(list=ls())
