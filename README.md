@@ -20,3 +20,7 @@ The syntax below provides the sensitivity analyses conducted by [Young (2014)](h
 
 
 ---
+
+## **Add Pie**
+
+This function was written by Christopher Steven Marcum and David R. Schaefer. The function **add.pie** adds pie charts to network visualizations that have been called using the gplot function in the sna package. A discussion of the function is provided in the article Save Room for Pie: Adding Pie Charts to Network Visualizations in R with statnet and plotrix.
