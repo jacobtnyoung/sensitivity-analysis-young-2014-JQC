@@ -1,3 +1,6 @@
+### *Here are a variety of functions written by me and/or others.* ###
+
+
 ## ***Sensitivity Analysis for Latent Homophily***
 
 Studies of social influence often estimate the effect of peers by regressing some outcome of interest (e.g. delinquency) on a measure of peer behavior (e.g. average peer delinquency in the network). However, latent homophily, an unmeasured factor which influences friendship selection and some outcome of interest, can create artificial statistical dependence between an outcome of interest for two individuals in the absence of any causal relationship ([Shalizi and Thomas 2011](http://www.ncbi.nlm.nih.gov/pubmed/21052008)). This program examines the sensitivity of estimates from a regression model of some outcome on a directly measured outcome of peers. [VanderWeele and Arah (2011)](http://www.ncbi.nlm.nih.gov/pubmed/21052008) and [VanderWeele (2011)](http://smr.sagepub.com/content/40/2/240.short) have developed a means to examine the sensitivity of an estimate to latent homophily. Basically, the approach examines the hypothetical conditions under which the effect of social influence would be explained by latent homophily.
@@ -31,5 +34,3 @@ The [**roster.to.adjacency**](roster.to.adjacency.R) function takes network data
 
 The [**egocentric.stats**]() function is a set of functions, each of which takes an adjacency matrix and a variable and creates the egocentric means and standard deviation for that variable. The functions require the adjacency matrix ("adj") and a variable ("var"). There are three types of networks to call: send, receive, and send and receive. So, there are six functions (3 for mean, 3 for sd). The end of the function gives an example of how this works.
 
-
----
