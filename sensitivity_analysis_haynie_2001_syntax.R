@@ -13,10 +13,10 @@ rm(list=ls())
 ################################
 #Set up conditions for analysis.
 
-#Build the function.Â 
-true.effect <- function(gamma,pi.1,pi.0){ 
-true <-(1+(gamma-1)*pi.1)/(1+(gamma-1)*pi.0)
-return(true)
+#Build the function.
+true.effect <- function(gamma,pi.1,pi.0){
+  true <-(1+(gamma-1)*pi.1)/(1+(gamma-1)*pi.0)
+  return(true)
 }
 # in this function "true" returns the value for "B" reported in the text.
 
@@ -55,10 +55,10 @@ main.3.00[97:500] <-NA
 
 #use "?plot" (without quotes) to examine this function.
 plot(seq(min(pi.1),max(pi.1),length.out=length(pi.1)),
-	 seq(-0.04,main.1.25[1],length.out=length(pi.1)),
-	 type="n",xlab=expression(paste(plain("Prevalence of" ~italic("U")~ "("), pi[1], plain(") in Ego's Network"))),
-	 ylab="Corrected Effect",
-	 main="Figure 2: Sensitivity Analysis for the Effect of Friend's \n Delinquency on Ego's Delinquency: Corrected Effects \n of Haynie (2001) Estimates Under Latent Homophily"
+     seq(-0.04,main.1.25[1],length.out=length(pi.1)),
+     type="n",xlab=expression(paste(plain("Prevalence of" ~italic("U")~ "("), pi[1], plain(") in Ego's Network"))),
+     ylab="Corrected Effect",
+     main="Figure 2: Sensitivity Analysis for the Effect of Friend's \n Delinquency on Ego's Delinquency: Corrected Effects \n of Haynie (2001) Estimates Under Latent Homophily"
 )
 
 # Draw line segments for each of the vectors of adjusted effects.
