@@ -29,8 +29,6 @@ This function was written by Christopher Steven Marcum and David R. Schaefer. Th
 
 <br>
 
----
-
 <br>
 
 ## ***Roster to Adjacency***
@@ -40,8 +38,6 @@ The [**roster.to.adjacency**](roster.to.adjacency.R) function takes network data
 <br>
 
 <br>
-
----
 
 <br>
 
