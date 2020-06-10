@@ -1,15 +1,3 @@
----
-layout: default
-title: Schedule
-
-  
----
-
-<div class = "uk-container uk-container-small">
-  
-<br><br>
-<br><br>
-
 ### Below are several R functions that I (and others) have programmed. I have found these very useful.
 
 ## **Sensitivity Analysis for Latent Homophily**
@@ -19,26 +7,3 @@ Studies of social influence often estimate the effect of peers by regressing som
 <br>
 
 The syntax below provides the sensitivity analyses conducted by [Young (2014)](http://link.springer.com/article/10.1007/s10940-013-9207-0) on two prominent studies of peer delinquency and social influence (i.e. [Haynie 2001](http://www.jstor.org/stable/10.1086/320298); [Meldrum, Young, and Weerman 2009](http://jrc.sagepub.com/content/46/3/353.short)).
-
-
-
-<br>
-<br>
-
------
-
-<br>
-<br>
-
-
-</div>
-
-
-<br>
-<br>
-
-<style>
-em {
-    color: black;
-}
-</style>
